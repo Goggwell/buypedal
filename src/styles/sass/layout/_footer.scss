@@ -1,0 +1,14 @@
+footer {
+    position: relative;
+    text-align: center;
+    padding: 10rem 0 7.5rem;
+
+    @include screen(small) {
+        padding: 5rem 0;
+    }
+}
+
+.footer--dark {
+    background: rgba(1,27,51,1);
+    color: var(--lighter-blue);
+}

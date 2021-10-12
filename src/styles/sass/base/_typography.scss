@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Boing';
+    src: url('../../assets/fonts/Boing/Boing_SemiboldWEB.eot');
+    src: url('../../assets/fonts/Boing/Boing_SemiboldWEB.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/Boing/Boing_SemiboldWEB.woff') format('woff'),
+         url('../../assets/fonts/Boing/Boing_SemiboldWEB.woff2') format('woff2');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/fonts/Graphik/Graphik-Regular.eot');
+    src: url('../../assets/fonts/Graphik/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/Graphik/Graphik-Regular.ttf') format('truetype'),
+         url('../../assets/fonts/Graphik/Graphik-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('../../assets/fonts/Graphik/Graphik-Medium.eot');
+    src: url('../../assets/fonts/Graphik/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/Graphik/Graphik-Medium.ttf') format('truetype'),
+         url('../../assets/fonts/Graphik/Graphik-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 62.5%; //rem definition: 1rem = 10px
+    @include screen(small) {
+        font-size: 58%;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--regular-font);
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #003767;
+}
