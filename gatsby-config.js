@@ -8,8 +8,11 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `BuyPedal`,
+    titleTemplate: `%s · BuyPedal`,
     description: `Have an adventure. We sell cycling and fishing goods that aim to please.`,
-    author: `@goggwell`,
+    url: `https://buypedal.netlify.app`,
+    image: `/thesite.jpg`,
+    owner: `Samuel Yusuf`,
   },
   plugins: [
     `gatsby-plugin-sass`,

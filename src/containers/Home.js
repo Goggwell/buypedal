@@ -6,6 +6,7 @@ import Featured from '../components/Featured'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import SEO from '../components/SEO/SEO'
 
 import useLocoScroll from '../hooks/useLocoScroll'
 
@@ -49,7 +50,7 @@ const Home = () => {
     return (
         <>
             <CursorAnim />
-
+            <SEO />
             {preloader 
              ? (
                 <div className="loader-wrapper absolute">
